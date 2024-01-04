@@ -12,6 +12,8 @@
       <button id="new-btn">New Game</button>
     </div>
     <main>
+      
+      <div id="bubbles"></div> <div id="bubbles2"></div> <div id="bubbles3"></div>
       <h1>Tic Tac Toe</h1>
       
       <div class="container">
@@ -29,6 +31,12 @@
       </div>
       <button id="reset-btn">Reset Game</button>
     </main>
-    <script src="2.js"></script>
+  
+  <script src="2.js"></script>
+
+    <script>
+      let bubleArr = []; document.addEventListener("mousemove", (e) => { let bubles = document.createElement("bubles"); let x = e.pageX; let y = e.pageY; let size = Math.random() * 60; bubles.style.width = 1 + size + "px"; bubles.style.height = 1 + size + "px"; bubles.style.left = x - size / 2 + "px"; bubles.style.top = y - size / 2 + "px"; document.body.appendChild(bubles); setTimeout(function () { bubles.remove(); console.log("tu sam"); }, 5000); }); 
+  </script>
+
   </body>
 </html>
