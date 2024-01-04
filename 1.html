@@ -11,36 +11,37 @@
   <body>
     <h1>Rock Paper Scissors</h1>
     <div class="choices">
-      <div class="choice a">
+      <div class="choice a" id="rock">
        <span><img  src="1rock.jpg" /></span>
         </div>
 
-        <div class="choice a">
-        <span><img  src="1.jpg" /></span>
+        <div class="choice a" id="paper"  >
+          
+          <span><img  src="1.jpg" /></span>
         </div>
 
-       <div class=" choice a">
-        <span><img src="1scissors.jpg" /></span>
+       <div class=" choice a" id="scissors">
+        <span><img   src="1scissors.jpg" /></span>
       </div>
       </div>
       
-       
+      <div class="score-board">
+        <div class="score">
+          <p id="user-score">0</p>
+          <p>You</p>
+        </div>
+        <div class="score">
+          <p id="comp-score">0</p>
+          <p>Comp</p>
+        </div>
+      </div>
+  
+      <div class="msg-container">
+        <p id="msg">Play your move</p>
+      </div> 
      
       
-    <div class="score-board">
-      <div class="score">
-        <p id="user-score">0</p>
-        <p> You</p>
-      </div>
-      <div class="score">
-        <p id="comp-score">0</p>
-        <p > Comp</p>
-      </div>
-    </div>
-
-    <div class="msg-container">
-      <p id="msg">Play your move</p>
-    </div>
+    
     <script src="1script.js"></script>
   </body>
 </html>
