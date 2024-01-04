@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,21 +13,24 @@ body{
 
 
 h1 {
-    background-color: #081b31;
+    
+  
+  text-shadow: 0 0 20px #00fffc, 0 0 30px #081b31;
     color: white;
     height: 5rem;
     line-height: 5rem;
 }
 
-.choice {
+.choice{
     height: 150px;
     width: 150px;
+
 }
 
 .choice:hover {
-    cursor: pointer;
-    background-color: rgb(37, 36, 36);
-
+  color: #00fffc;
+  background: transparent;
+   box-shadow:none;
   }
 
 img {
@@ -54,6 +59,8 @@ img {
   #user-score,
   #comp-score {
     font-size: 2rem;
+    padding-top: 100px;
+    text-shadow:  0 0 20px #081b31, 0 0 30px #00fffc;
   }
   
   .msg-container {
@@ -67,8 +74,41 @@ img {
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: 0 0 20px , 0 0 30px blue;
   }
+  
+ 
+  
+    
 
+        .a {
+            position: relative;
+            display: inline-block;
+            padding: 25px 30px;
+            margin: 40px 0;
+            transition: 0.5s;
+            overflow: hidden;
+            margin-right: 50px;
+            
+        }
+       
+        .a:hover {
+            background: #03e9f4;
+            color: #050801;
+            box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+            -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+        }
+
+
+        
+
+        
+
+      
+        
 
 
 
