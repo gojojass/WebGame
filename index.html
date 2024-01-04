@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cursor.html">
+    
+
+</head>
+<body>
+    <div id="app">
+        <div id="hero">
+    <div class="nav">
+    
+        <h1 class="text"> Games</h1>
+        <h5>Game on! Level up in real life, not just in games.</h5>
+        <div class="pic">
+            <img id="game1" src="game1.jpg" alt="">
+            <div class="btn">
+            <a href="1.html">
+                <button class="text">Play Now</button>
+            </a>
+                
+                
+               
+            </div>
+        </div>
+        <div class="pic">
+            <img id="game2" src="game2.avif" alt="">
+            <div class="btn-red">
+            <a href="2.html">
+                <button class="text">Play Now</button>
+            </a>
+            </div>
+            <div class="newgame">
+
+            </div>
+                
+       </div>
+
+       </div>
+    </div>
+</div>
+<script type="module">
+    import { particlesCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
+
+    const pc = particlesCursor({
+        el: document.getElementById('app'),
+        gpgpuSize: 512,
+        colors: [0x00fffc, 0x0000ff], // Changed pink color to #00fffc and blue color
+        color: 0x0000ff,
+        coordScale: 0.15,
+
+    });
+</script>
+       
+       
+
+</body>
+</html>
+
+
+
+

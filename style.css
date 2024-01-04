@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease;
+
+}
+h1{
+    text-shadow: 0 0 20px #00fffb  ;
+}
+h5{
+    text-shadow: 0 0 10px #f50707  ;
+}
+
+
+#game1 {
+    width: 300px;
+    height: 220px;
+    border-radius: 20%;
+    box-shadow: 0 0 20px #00fffb, 0 0 10px #0fffb0  ;
+}
+#game2 {
+    width: 300px;
+    height: 220px;
+    border-radius: 20%;
+    box-shadow: 0 0 20px purple, 0 0 30px plum;
+}
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    flex-direction: column;
+    
+}
+
+
+    .btn {
+        font-size: 15px;
+        border-radius: 4px;
+        box-shadow: 0 0 15px #00fffb, 0 0 8px #0fffb0 ;
+        padding: 0;
+}
+.btn-red{
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    box-shadow: 0 0 16px rgba(250, 4, 250, 0.445), 0 0 8px plum;
+    
+
+}
+
+
+   
+
+#app {
+  overflow: hidden;
+  color: #ffffff;
+  font-family: 'Montserrat',
+  sans-serif;
+  text-align: center;
+  text-shadow: 0 0 5px 
+#ffffff, 0 0 20px #000,
+  0 0 30px #000;
+}
+
+#app h1 {
+   
+    width: auto;
+    height: calc(2 * var(--lineHeight));
+    line-height: var(--lineHeight);
+    margin: calc(50vh - var(--lineHeight)) auto 0;
+    font-size: var(--fontSize);
+}
+
+#app a {
+    margin-top: 0px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+#app canvas {
+    display: block;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
